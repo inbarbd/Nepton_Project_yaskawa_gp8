@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+
+<robot name="motoman_gp8" xmlns:xacro="http://ros.org/wiki/xacro">
+	<xacro:include filename="$(find gp8_simulation)/urdf/gp8_macro_gazebo.xacro" />
+	<xacro:motoman_gp8 prefix=""/>
+	<link name="world" />
+    <joint name="world_to_gp8" type="fixed">
+        <origin xyz="0 0 0.0" rpy="0 0 0"/>
+        <parent link="world"/>
+        <child link="base"/>
+    </joint>
+
+    <link name="ee">
+       <inertial>
+            <mass value="0.1" />
+                <inertia ixx="0.1" ixy="0"  ixz="0" iyy="0.1" iyz="0"  izz="0.1" />
+        </inertial> 
+        <visual>
+            <origin xyz="0 0 0.0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://nepton_arm_project/urdf/nepton_arm_ee_full.STL" scale="0.001 0.001 0.001"/>
+            </geometry>
+            <!-- <xacro:material_yaskawa_blue/> -->
+        </visual>
+        <collision>
+            <origin xyz="0 0 0.0" rpy="0 0 0"/>
+            <geometry>
+                <mesh filename="package://nepton_arm_project/urdf/nepton_arm_ee_full.STL" scale="0.001 0.001 0.001"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <joint name="ee_to_gp8" type="fixed">
+        <origin xyz="0.03 -0.05 0.005" rpy="0 -1.57 0"/>
+        <parent link="tool0"/>
+        <child link="ee"/>
+    </joint>
+
+
+    <link name="ee_tip"/>
+    <joint name="ee_tip_joint" type="fixed">
+        <origin xyz="0.1 0.05 0.02" rpy="0 0 0"/>
+        <parent link="ee"/>
+        <child link="ee_tip"/>
+    </joint>
+
+	    <gazebo>
+        <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+          <robotNamespace>/motoman_gp8</robotNamespace>
+          <!-- <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType> -->
+        </plugin>
+      </gazebo> 
+</robot>

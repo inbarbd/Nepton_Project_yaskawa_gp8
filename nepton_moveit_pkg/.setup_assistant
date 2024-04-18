@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: nepton_arm_project
+    relative_path: urdf/nepton_arm_gp8_gazebo.xacro
+    xacro_args: ""
+  SRDF:
+    relative_path: config/motoman_gp8.srdf
+  CONFIG:
+    author_name: inbar meir
+    author_email: inbarbendavid@gmail.com
+    generated_timestamp: 1713247020

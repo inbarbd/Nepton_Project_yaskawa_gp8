@@ -32,12 +32,12 @@ rosservice call /stop_gp8_movment - stop real robot</br>
     </td>
     <td align="center">
     <!-- <caption>GUI Program Example</caption> -->
-      <img align=center width=250 src="gui_program_example_1.gif" /> 
+      <img align=center width=250 src="video/gui_program_example_1.mp4" /> 
       <br/>
     </td>
     <td align="center">
     <!-- <caption>Run Ashkelon Test</caption> -->
-      <img align=center width=250 src="run_ashkelon_test_1.gif" /> 
+      <img align=center width=250 src="video/run_ashkelon_test_1.mp4" /> 
       <br/>
     </td>
   </tr>

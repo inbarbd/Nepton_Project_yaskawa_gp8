@@ -1,7 +1,7 @@
 # Nepton_Project
 
-This program is base on gp8_gazebo_moveit_pkg and [motoman_ps](https://github.com/MaxorPaxor/motoman_ps])
-
+This program is base on gp8_gazebo_moveit_pkg and [motoman_ps](https://github.com/MaxorPaxor/motoman_ps])</br>
+Run on ubuntu 18.04 ros melodic</br>
 
 run gp8 controll sim or real:</br>
 roslaunch nepton_arm_project gp8_robot_and_sim_moveit.launch </br>
@@ -24,9 +24,9 @@ rosservice call /run_ashkelon_data - genetat motoman msg and send it to the to t
 rosservice call /stop_gp8_movment - stop real robot</br>
 
 
-left gif - Gazebo Simulation
-center git - GUI Program Example
-right gif - Run Ashkelon Test
+left gif - Gazebo Simulation </br>
+center git - GUI Program Example </br>
+right gif - Run Ashkelon Test </br>
 <table>
   <tr>
     <td align="center">

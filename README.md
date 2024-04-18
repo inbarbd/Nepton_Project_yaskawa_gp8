@@ -27,18 +27,18 @@ rosservice call /stop_gp8_movment - stop real robot</br>
   <tr>
     <td align="center">
     <!-- <caption>Gazebo Simulation</caption> -->
-      <img align=center width=250 src="gazebo_sim_ashkelon_data.mp4" />
+      <img align=center width=250 src="gazebo_sim_ashkelon_data.gif" />
       <br/>
     </td>
     <td align="center">
     <!-- <caption>GUI Program Example</caption> -->
-      <img align=center width=250 src="gui_program_example_1.mp4" /> 
+      <img align=center width=250 src="gui_program_example_1.gif" /> 
       <br/>
     </td>
     <td align="center">
     <!-- <caption>Run Ashkelon Test</caption> -->
-      <img align=center width=250 src="run_ashkelon_test_1.mp4" /> 
+      <img align=center width=250 src="run_ashkelon_test_1.gif" /> 
       <br/>
     </td>
   </tr>
-</table># Nepton_Project_yaskawa_gp8
+</table>

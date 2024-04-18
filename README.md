@@ -1,6 +1,6 @@
 # Nepton_Project
 
-This program is base on gp8_gazebo_moveit_pkg and (motoman_ps)[https://github.com/MaxorPaxor/motoman_ps]
+This program is base on gp8_gazebo_moveit_pkg and [motoman_ps](https://github.com/MaxorPaxor/motoman_ps])
 
 
 run gp8 controll sim or real:</br>
@@ -26,17 +26,17 @@ rosservice call /stop_gp8_movment - stop real robot</br>
 <table>
   <tr>
     <td align="center">
-    <caption>Gazebo Simulation</caption>
+    <!-- <caption>Gazebo Simulation</caption> -->
       <img align=center width=250 src="gazebo_sim_ashkelon_data.mp4" />
       <br/>
     </td>
     <td align="center">
-    <caption>GUI Program Example</caption>
+    <!-- <caption>GUI Program Example</caption> -->
       <img align=center width=250 src="gui_program_example_1.mp4" /> 
       <br/>
     </td>
     <td align="center">
-    <caption>Run Ashkelon Test</caption>
+    <!-- <caption>Run Ashkelon Test</caption> -->
       <img align=center width=250 src="run_ashkelon_test_1.mp4" /> 
       <br/>
     </td>

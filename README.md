@@ -27,7 +27,7 @@ rosservice call /stop_gp8_movment - stop real robot</br>
   <tr>
     <td align="center">
     <!-- <caption>Gazebo Simulation</caption> -->
-      <img align=center width=250 src="gazebo_sim_ashkelon_data.gif" />
+      <img align=center width=250 src="/video/gazebo_sim_ashkelon_data.gif" />
       <br/>
     </td>
     <td align="center">

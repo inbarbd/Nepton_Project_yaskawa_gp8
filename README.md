@@ -23,20 +23,24 @@ rosservice call /recorde_joint_state_for_ashkelon_file_data - genetate robot joi
 rosservice call /run_ashkelon_data - genetat motoman msg and send it to the to the robot</br>
 rosservice call /stop_gp8_movment - stop real robot</br>
 
+
+left gif - Gazebo Simulation
+center git - GUI Program Example
+right gif - Run Ashkelon Test
 <table>
   <tr>
     <td align="center">
-    <caption>Gazebo Simulation</caption>
+    <!-- <caption>Gazebo Simulation</caption> -->
       <img align=center width=250 src="/video/gazebo_sim_ashkelon_data.gif" />
       <br/>
     </td>
     <td align="center">
-    <caption>GUI Program Example</caption>
+    <!-- <caption>GUI Program Example</caption> -->
       <img align=center width=250 src="video/gui_program_example_1.gif" /> 
       <br/>
     </td>
     <td align="center">
-    <caption>Run Ashkelon Test</caption>
+    <!-- <caption>Run Ashkelon Test</caption> -->
       <img align=center width=250 src="video/run_ashkelon_test_1.gif" /> 
       <br/>
     </td>

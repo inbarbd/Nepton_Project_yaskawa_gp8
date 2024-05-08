@@ -607,6 +607,7 @@ def main():
     rospy.Service("recorde_joint_state_for_ashkelon_file_data",Empty,a.recorde_joint_state_for_ashkelon_file_data)
     rospy.Service("run_ashkelon_data",Empty,a.run_ashkelon_data)
     rospy.Service("stop_gp8_movment",Empty,a.stop_gp8_movment)
+    print("service is ready")
     rospy.spin()
 
 

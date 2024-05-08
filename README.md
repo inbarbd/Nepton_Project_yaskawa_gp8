@@ -1,16 +1,18 @@
 # Nepton_Project
 
-This program is base on gp8_gazebo_moveit_pkg and [motoman_ps](https://github.com/MaxorPaxor/motoman_ps])</br>
+This program is base on [gp8_gazebo_moveit_pkg](gp8_gazebo_moveit_pkg) and [motoman_ps](https://github.com/MaxorPaxor/motoman_ps])</br>
 Run on ubuntu 18.04 ros melodic</br>
 
-run gp8 controll sim or real:</br>
+Run gp8 controll sim or real:</br>
 roslaunch nepton_arm_project gp8_robot_and_sim_moveit.launch </br>
 
-for sim set arg gazebo_sim = True for real robot control gazebo_sim = False</br>
+For sim set arg gazebo_sim = True for real robot control gazebo_sim = False</br>
 
-run program gui control:</br>
+Run program gui control:</br>
+cd ~/catkin_ws/src/Nepton_Project/nepton_arm_project/src </br>
 python3 nepton_program_gui.py</br>
 
+--
 
 Servises:</br>
 
@@ -27,6 +29,7 @@ rosservice call /stop_gp8_movment - stop real robot</br>
 left gif - Gazebo Simulation </br>
 center git - GUI Program Example </br>
 right gif - Run Ashkelon Test </br>
+
 <table>
   <tr>
     <td align="center">
@@ -46,3 +49,5 @@ right gif - Run Ashkelon Test </br>
     </td>
   </tr>
 </table>
+
+--

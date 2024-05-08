@@ -12,7 +12,7 @@ Run program gui control:</br>
 cd ~/catkin_ws/src/Nepton_Project/nepton_arm_project/src </br>
 python3 nepton_program_gui.py</br>
 
---
+---
 
 Servises:</br>
 
